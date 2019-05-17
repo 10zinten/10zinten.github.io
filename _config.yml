@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Tenzin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg" 
   bio              : "Personal Blog & Portfolio"
   location         : "Dharamshala"
   email            : 
