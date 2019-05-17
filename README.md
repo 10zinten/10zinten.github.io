@@ -1,0 +1,1 @@
+# 10zinten.github.io
