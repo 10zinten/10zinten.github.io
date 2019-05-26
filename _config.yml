@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tenzin Blog"
+title                    : "Tenzin's Blog"
 title_separator          : "-"
 name                     : "Tenzin"
 description              : "Machine Learning Blog & Porfolio"
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Tenzin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am a NLP Developer at Esukhia"
   location         : "Dharamshala"
   email            :
@@ -293,11 +293,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
- # _pages
- - scope:
-     path: ""
-     type: pages
-   value:
-     layout: single
-     author_profile: true
