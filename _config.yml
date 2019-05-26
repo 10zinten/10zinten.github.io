@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-IN"
-title                    : "Tenzin"
+locale                   : "en-US"
+title                    : "Tenzin's Blog"
 title_separator          : "-"
 name                     : "Tenzin"
-description              : "Presonal blog and Portfolio"
+description              : "Machine Learning Blog & Porfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -83,7 +83,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -94,7 +94,7 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links: 
 
 # Analytics
 analytics:
@@ -107,17 +107,17 @@ analytics:
 # Site Author
 author:
   name             : "Tenzin"
-  avatar           : "/images/bio-photo.jpg" 
-  bio              : "Personal Blog & Portfolio"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am a NLP Developer at Esukhia"
   location         : "Dharamshala"
-  email            : 
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:10zin.knrb@gmail.com
-    - label: "Website"
+      url: mailto:10zin@esukhia.org
+    - label: "Linkedin"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.linkedin.com/in/10zinten"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/10zintenx"
@@ -294,11 +294,10 @@ defaults:
       share: true
       related: true
 
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
+ # _pages
+ - scope:
+     path: ""
+     type: pages
+   value:
+     layout: single
+     author_profile: true
