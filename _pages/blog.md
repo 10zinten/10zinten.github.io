@@ -1,10 +1,9 @@
 ---
+title: "Blog"
 layout: archive
-permalink: /ml/
-title: "Machine learning Posts by Tags"
+permalink: /blog/
 author_profile: true
 ---
-
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
